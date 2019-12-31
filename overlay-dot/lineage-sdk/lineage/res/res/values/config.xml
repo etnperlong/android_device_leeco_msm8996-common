@@ -16,6 +16,17 @@
      limitations under the License.
 -->
 <resources>
+
+    <!-- Whether notify fingerprint client of successful cancelled authentication -->
+    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
+
+    <!-- Does the battery LED support multiple colors?
+         Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">true</bool>
+
+    <!-- Default state for LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+
     <!-- Use default display mode -->
     <integer name="config_defaultLiveDisplayMode">0</integer>
 
@@ -121,4 +132,18 @@
          sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
     -->
     <integer name="config_longPressOnAppSwitchBehavior">1</integer>
+
+    <bool name="config_button_brightness_support">true</bool>
+
+    <integer name="config_button_brightness_default">255</integer>
+
+    <bool name="config_ledCanPulse">true</bool>
+
+    <!-- Do the battery/notification LEDs support pulsing?
+         Used to decide if we show pulse settings -->
+    <bool name="config_canForceDozeNotifications">true</bool>
+
+    <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
+    <bool name="config_custom_swipe_up_gesture_setting_available">true</bool>
+
 </resources>
