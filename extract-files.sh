@@ -70,6 +70,11 @@ function blob_fixup() {
 		sed -i -e 's|/system/bin/linker64|/sbin/linker64\x0\x0\x0\x0\x0\x0|g' "${2}"
 		;;
 
+	# use /sbin instead of /system/bin for TWRP
+	recovery/root/sbin/qseecomd)
+		sed -i -e 's|/system/bin/linker64|/sbin/linker64\x0\x0\x0\x0\x0\x0|g' "${2}"
+		;;
+
 	esac
 }
 
