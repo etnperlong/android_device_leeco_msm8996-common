@@ -676,6 +676,11 @@ vendor/bin/time_daemon|385c449770ee3f1d15bf7c5994e8c2fde9b91ba3
 vendor/lib/libtime_genoff.so|95a43a2a19f57d5bd8821f80f51061c7305faeb5
 vendor/lib64/libtime_genoff.so|d0fc4808b859d36b4b545a0219c8fb8d1ea3203a
 
+# Turbo
+etc/permissions/privapp-permissions-turbo.xml
+etc/sysconfig/turbo.xml
+-priv-app/Turbo/Turbo.apk
+
 # WiFi Display - from LA.UM.7.5.r1-04800-8x96.0
 bin/wfdservice|edeb291221024401cbae69c2fa4e58733b7efc4c
 etc/init/wfdservice.rc|311bfdd1675e56499662f39455536b75b78477bb
